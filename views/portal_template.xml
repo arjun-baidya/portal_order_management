@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="portal_layout_inherit" inherit_id="portal.portal_layout">
+        <xpath expr="//h3[@class='my-3'][contains(text(),'My account')]" position="after">
+            <a class="btn btn-primary mt-3" href="/my/order/create">Create Sales Order</a>
+        </xpath>
+    </template>
+</odoo>
+
