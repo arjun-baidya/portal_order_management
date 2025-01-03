@@ -8,6 +8,9 @@ This Odoo module allows portal users to create and manage sales orders directly 
 * Integration with existing Odoo sales workflows.
 * User-friendly interface for portal users.
 
+## installation
+ clone this repo and add your custom folder path then run the server and update the app list.
+
 ## Usage
 - Portal users can now select a customer when creating a sales order.
 - Invoices will be filtered to show only those related to the sales orders created by the portal user.
